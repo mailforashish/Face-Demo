@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: io.agora.rtc:full-sdk:3.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/a10740e4e10ca7ca8f497088616f37e5/jetified-full-sdk-3.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/a10740e4e10ca7ca8f497088616f37e5/jetified-full-sdk-3.2.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/a10740e4e10ca7ca8f497088616f37e5/jetified-full-sdk-3.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/a10740e4e10ca7ca8f497088616f37e5/jetified-full-sdk-3.2.0/jars/libs/agora-rtc-sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/io.agora.rtc/full-sdk/3.2.0/98eb32615fc2fe683dfec55958931eb0d1968297/full-sdk-3.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/io.agora.rtc/full-sdk/3.2.0/98eb32615fc2fe683dfec55958931eb0d1968297/full-sdk-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

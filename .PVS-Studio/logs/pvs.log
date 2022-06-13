@@ -1,0 +1,20 @@
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:63 - ********************************
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:63 - ********************************
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:64 - Native library search paths: 
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:64 - Native library search paths: 
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - .
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\..
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\..\..
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\..\..\build
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - .
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\..
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\..\..
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:948 - C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\..\..\build
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:66 - Additional path: native/win
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:66 - Additional path: native/win
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:75 - Native library found: C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\native\win\analysis-core.dll
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:76 - ********************************
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:75 - Native library found: C:\Users\SHIVAM\AppData\Roaming\PVS-Studio-Java\7.11.44138\native\win\analysis-core.dll
+2021-06-14 16:23:14 [INFO ] c.p.r.NativeLoader:76 - ********************************

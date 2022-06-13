@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="36dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/ic_forgot" />
+
+    <com.zeeplive.app.utils.ExtraBoldTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Forgot Your Password?"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <com.zeeplive.app.utils.BoldTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="4dp"
+        android:text="Enter your registered email id"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <!-- <android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="36dp">
+
+         <zeeplive.app.utils.CustomEdittext
+             android:id="@+id/et_phonenumber"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|top"
+             android:hint="Enter Mobile Number"
+             android:inputType="number"
+             android:maxLength="10"
+             android:textColor="@color/textBlack"
+             android:textColorHint="@color/colorAccent"
+             android:textSize="16sp" />
+     </android.support.design.widget.TextInputLayout>-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/username_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_email" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_vertical_line" />
+
+            <com.zeeplive.app.utils.CustomEdittext
+                android:id="@+id/et_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="Enter Email Id"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <com.zeeplive.app.utils.CustomButton
+        android:id="@+id/btn_reset"
+        style="@style/CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:text="FORGET" />
+
+    <com.zeeplive.app.utils.BoldTextView
+        android:id="@+id/tv_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="6dp"
+        android:text="Don't have an account? Sign Up"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

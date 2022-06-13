@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720604246001",
+    "firebase_url": "https://zeeplive-dcacf.firebaseio.com",
+    "project_id": "zeeplive-dcacf",
+    "storage_bucket": "zeeplive-dcacf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720604246001:android:6337d18df24ff07f3e9e50",
+        "android_client_info": {
+          "package_name": "com.zeeplive.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720604246001-eaf17hbjpj2u1gajc3ch253079utp79d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeeplive.app",
+            "certificate_hash": "c774e2a4ab2497a4b25ee4199bf18614fb069457"
+          }
+        },
+        {
+          "client_id": "720604246001-02kfkiogk86rngsdgh7t34kaoreo5e80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsrlyFLzNlUCxoIigCa-8ILDtFmjUXtF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720604246001-vds9seon29bbgv1kj9seh26ri9clrvtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

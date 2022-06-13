@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appsflyer:oaid:5.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/a6350fd5c5af65f8234021b3a77319aa/jetified-oaid-5.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/a6350fd5c5af65f8234021b3a77319aa/jetified-oaid-5.4.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/a6350fd5c5af65f8234021b3a77319aa/jetified-oaid-5.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/5cd536b0af283513598e062bb228c74a/jetified-oaid-5.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/5cd536b0af283513598e062bb228c74a/jetified-oaid-5.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/5cd536b0af283513598e062bb228c74a/jetified-oaid-5.4.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/bb822cd59431337043191293f08cb492/jetified-oaid-5.4.0/res" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/bb822cd59431337043191293f08cb492/jetified-oaid-5.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/bb822cd59431337043191293f08cb492/jetified-oaid-5.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.appsflyer/oaid/5.4.0/78c9c18b84f28c1eb25ddd481367180f1d907e47/oaid-5.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

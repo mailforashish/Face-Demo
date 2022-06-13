@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FemaleSideDialogActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_user"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="60dp"
+            android:elevation="8dp"
+            android:src="@drawable/female_placeholder"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/over_box"
+            app:strokeWidth="1dp" />
+
+        <LinearLayout
+            android:id="@+id/linear_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rate_header_background"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/over_box">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="40dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/details_countryimg"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/in" />
+
+                    <TextView
+                        android:id="@+id/tv_guset_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:layout_marginStart="7dp"
+                        android:text="Guset5277"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_call_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/lato_semibold"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="Call Duratiuon: 00:00:56"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/over_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/over_box"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rate_header_background"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear_header">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/femalesidedialog_background"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_semibold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="Video Call Earning"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_video_earning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/lato_bold"
+                        android:drawablePadding="5dp"
+                        android:drawableStart="@drawable/ic_coin"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/femalesidedialog_background"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_semibold"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:text="Gift Earning"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_gift_earning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:drawablePadding="5dp"
+                        android:drawableStart="@drawable/ic_coin"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:includeFontPadding="false"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear_header"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/ic_arrow_back_black"
+                android:gravity="center"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/tv_free_call"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingRight="30dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Is Free Gift Call"
+                style="@style/AudioFileInfoOverlayText"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

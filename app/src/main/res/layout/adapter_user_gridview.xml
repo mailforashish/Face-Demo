@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/female_placeholder" />
+
+    <TextView
+        android:id="@+id/is_online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/viewprofile_online_background"
+        android:drawablePadding="4dp"
+        android:fontFamily="@font/lato_medium"
+        android:paddingLeft="6dp"
+        android:paddingTop="2dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="2dp"
+        android:text="Online"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/total_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#40000000"
+        android:drawableStart="@drawable/ic_favorite"
+        android:drawablePadding="4dp"
+        android:fontFamily="@font/lato_medium"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:text="--"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/img_video_call"
+        android:background="@drawable/tricolor_homefragment"
+        android:orientation="vertical"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DP5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:fontFamily="@font/lato_bold"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/SP15" />
+
+            <TextView
+                android:id="@+id/countryDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/viewprofile_city_background"
+                android:drawableLeft="@drawable/ic_location_small"
+                android:fontFamily="@font/lato_medium"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="2dp"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_age"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/viewprofile_age_background"
+                android:fontFamily="@font/lato_medium"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/about_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/lato_medium"
+            android:maxLines="1"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="4dp"
+            android:text="Who is this chick?"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_video_call"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:clickable="true"
+                    android:elevation="@dimen/_20sdp"
+                    android:focusable="true"
+                    android:src="@drawable/phonecallhome" />
+            </FrameLayout>
+
+            <com.zeeplive.app.utils.BoldTextView
+                android:id="@+id/tv_gift_offer"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="30dp"
+                android:background="@mipmap/best_offer"
+                android:gravity="center"
+                android:lineSpacingMultiplier="0.8"
+                android:padding="4dp"
+                android:rotation="-45"
+                android:text="Free Call"
+                android:textColor="@color/colorWhite"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

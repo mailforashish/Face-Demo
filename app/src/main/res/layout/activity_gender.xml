@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/complete_profile_bg"
+    android:orientation="horizontal"
+    tools:context=".activity.GenderActivity">
+
+    <ImageView
+        android:id="@+id/img_back_gender"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_back"
+        android:gravity="left"
+        android:padding="14dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook_login_button_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear_main"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Gender selection"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="15dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/gender_male_bg"
+                android:drawableStart="@drawable/gender1"
+                android:fontFamily="@font/lato_medium"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Male"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/gender_female_bg"
+                android:drawableStart="@drawable/gender0"
+                android:fontFamily="@font/lato_medium"
+                android:gravity="center"
+                android:paddingLeft="28dp"
+                android:paddingRight="20dp"
+                android:text="Female"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_you_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_error"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="You can't change after confirmation"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/complete_profile_edit_name_bg"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/lato_medium"
+            android:gravity="center"
+            android:paddingStart="29dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="14dp"
+            android:text="Select the date of birth"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white300"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_not"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_error"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Not allowed to use under 18"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/complete_profile_btn_bg"
+            android:fontFamily="@font/lato_medium"
+            android:padding="14dp"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_main"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agree to "
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openAgreement"
+            android:text="@string/useragreement"
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and "
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openPrivacyPolicy"
+            android:text="@string/privacypolicy"
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

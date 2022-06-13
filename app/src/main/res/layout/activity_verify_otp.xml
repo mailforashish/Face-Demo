@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.VerifyOtp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:background="@drawable/gradient_background" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_sms"
+            app:backgroundTint="@color/white"
+            app:borderWidth="0dp"
+            app:fabCustomSize="100dp"
+            app:maxImageSize="42dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:orientation="vertical">
+
+        <com.zeeplive.app.utils.BoldTextView
+            android:id="@+id/otp_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="VERIFY EMAIL ID"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/textSizeXXLarge" />
+
+        <com.zeeplive.app.utils.BoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="OTP has been sent on your email id. please enter it below"
+            android:textAlignment="center"
+            android:textColor="@color/textGrey"
+            android:textSize="@dimen/textSizeLarge" />
+
+        <com.zeeplive.app.utils.OtpEditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textIsSelectable="false"
+            android:textSize="20sp" />
+
+        <com.zeeplive.app.utils.CustomButton
+            android:id="@+id/submit_btn"
+            style="@style/CustomButton"
+            android:layout_width="148dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:text="Submit" />
+
+        <com.zeeplive.app.utils.BoldTextView
+            android:id="@+id/resend_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="@string/resend_otp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textSizeLarge" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:fontFamily="@font/lato_medium"
+            android:padding="16dp"
+            android:text="please check your Spam folder just in case the confirmation email got delivered there instead of your inbox."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</LinearLayout>

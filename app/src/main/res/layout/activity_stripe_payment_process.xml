@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4f0ef"
+    tools:context=".activity.StripePaymentProcess">
+
+    <RelativeLayout
+        android:id="@+id/rl_paymenyloader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_sloading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/DP20"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:text="Please wait..."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5d6bd6"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_msg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/DP50"
+            android:fontFamily="@font/lato_regular"
+            android:text="Pay with debit or credit card"
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP25"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_msg1"
+            android:layout_marginTop="@dimen/DP20"
+            android:fontFamily="@font/lato_regular"
+            android:text="We keep your financial information securely\nencrypted."
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/DP50"
+            android:layout_below="@id/cvcard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/DP20"
+            android:src="@drawable/stripep" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvcard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DP110"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="@dimen/DP10">
+
+            <com.stripe.android.view.CardInputWidget
+                android:id="@+id/cardInputWidget"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="@dimen/DP10"
+                android:layout_marginEnd="@dimen/DP10" />
+        </androidx.cardview.widget.CardView>
+
+        <com.zeeplive.app.utils.CustomButton
+            android:id="@+id/purchase"
+            style="@style/CustomButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:backgroundTint="#66bb6a"
+            android:text="Pay Now" />
+    </RelativeLayout>
+</RelativeLayout>

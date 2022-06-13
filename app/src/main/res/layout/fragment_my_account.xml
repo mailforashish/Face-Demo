@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="clickListener"
+            type="com.zeeplive.app.fragment.MyAccountFragment.EventHandler" />
+
+    </data>
+
+    <FrameLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.MyAccountFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <io.github.florent37.shapeofview.shapes.ArcView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:elevation="4dp"
+                    app:shape_arc_height="30dp"
+                    app:shape_arc_position="bottom">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gradient_background_my_account" />
+
+
+                    <ImageView
+                        android:id="@+id/edit_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginRight="14dp"
+                        android:onClick="@{()->clickListener.editProfile()}"
+                        android:padding="4dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edit_profile"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/DP25"
+                        android:layout_marginTop="25dp">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/DP20"
+                            android:layout_marginTop="8dp"
+                            android:layout_toRightOf="@+id/user_image"
+                            android:fontFamily="@font/lato_bold"
+                            android:text="--"
+                            android:textColor="@color/Black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/user_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/DP20"
+                            android:layout_marginTop="@dimen/DP2"
+                            android:layout_marginBottom="@dimen/DP2"
+                            android:layout_toRightOf="@+id/user_image"
+                            android:background="@drawable/user_id_bg"
+                            android:fontFamily="@font/lato_regular"
+                            android:paddingStart="@dimen/DP8"
+                            android:paddingTop="1dp"
+                            android:paddingEnd="@dimen/DP8"
+                            android:paddingBottom="1dp"
+                            android:text="ID : --"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/user_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user_id"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/DP20"
+                            android:layout_marginTop="@dimen/DP2"
+                            android:layout_toRightOf="@+id/user_image"
+                            android:background="@drawable/viewprofile_age_background"
+                            android:fontFamily="@font/lato_regular"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/DP8"
+                            android:paddingTop="1dp"
+                            android:paddingEnd="@dimen/DP8"
+                            android:paddingBottom="2dp"
+                            android:text="Lv1"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/user_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user_id"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/DP10"
+                            android:layout_marginTop="@dimen/DP2"
+                            android:layout_toRightOf="@+id/user_level"
+                            android:background="@drawable/viewprofile_city_background"
+                            android:fontFamily="@font/lato_regular"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/DP8"
+                            android:paddingTop="1dp"
+                            android:paddingEnd="@dimen/DP8"
+                            android:paddingBottom="2dp"
+                            android:singleLine="true"
+                            android:text="India"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+
+                        <ImageView
+                            android:id="@+id/user_image"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="@{()->clickListener.editProfile()}"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_profile" />
+
+                        <View
+                            android:layout_width="0.4dp"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/user_image"
+                            android:layout_centerHorizontal="true"
+                            android:background="@color/grey500"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bg"
+                        android:paddingLeft="@dimen/DP10"
+                        android:paddingRight="@dimen/DP10"
+                        android:weightSum="3">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+
+                            android:gravity="bottom"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="@dimen/DP20">
+
+                            <TextView
+                                android:id="@+id/tv_input_friend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/tv_friends"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="@font/lato_semibold"
+                                android:includeFontPadding="false"
+                                android:text="15"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/tv_friends"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/lato_medium"
+                                android:text="Friends"
+                                android:textSize="12sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/DP40"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="@dimen/DP20">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/tv_fallowing"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="@font/lato_semibold"
+                                android:includeFontPadding="false"
+                                android:text="14"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/tv_fallowing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/lato_medium"
+                                android:text="Following"
+                                android:textSize="12sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_followers"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/DP40"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:paddingBottom="@dimen/DP20">
+
+                            <TextView
+                                android:id="@+id/followers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/followers_txt"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="@font/lato_semibold"
+                                android:includeFontPadding="false"
+                                android:text="--"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/followers_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/lato_medium"
+                                android:text="Followers"
+                                android:textSize="12sp" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </io.github.florent37.shapeofview.shapes.ArcView>
+            </RelativeLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:id="@+id/upgraded_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:onClick="@{()->clickListener.upGraded()}">
+
+                        <TextView
+                            android:id="@+id/tv_myLevel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_upgraded"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="My Level "
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="-70dp"
+                            android:layout_toLeftOf="@+id/img_myLevel"
+                            android:layout_toRightOf="@+id/tv_myLevel"
+                            android:gravity="right"
+                            android:paddingRight="20dp">
+
+                            <TextView
+                                android:id="@+id/level_tv_current_exp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5sp"
+                                android:layout_toLeftOf="@id/level_user_progressBar"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="Lv1"
+                                android:textColor="@color/grey500"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/level_tv_next_exp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginLeft="5dp"
+                                android:layout_toRightOf="@id/level_user_progressBar"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="Lv2"
+                                android:textColor="@color/grey500"
+                                android:textSize="14sp" />
+
+
+                            <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                                android:id="@+id/level_user_progressBar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="80dp"
+                                android:layout_height="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:indeterminate="false"
+                                android:maxHeight="12dp"
+                                android:minHeight="12dp"
+                                android:progress="10"
+                                app:backgroundColor="@color/violet_light"
+                                app:isRounded="true"
+                                app:progressColor="@color/violet" />
+
+
+                        </RelativeLayout>
+
+
+                        <ImageView
+                            android:id="@+id/img_myLevel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/income_report"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.incomeReport()}">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_income_report"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Income Report"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/my_earning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.myEarning()}">
+
+                        <TextView
+                            android:id="@+id/tv_my_earning"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_wallet"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="My Earning"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/img_earning_forword"
+                            android:layout_toRightOf="@+id/tv_my_earning"
+                            android:gravity="right"
+                            android:paddingRight="10dp">
+
+                            <TextView
+                                android:id="@+id/cash_out"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:fontFamily="@font/lato_medium"
+                                android:text="Cash out"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/img_earning_forword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/my_wallet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.purchaseCoins()}">
+
+                        <TextView
+                            android:id="@+id/tv_my_balance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_wallet"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="My Balance"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/img_balance_forword"
+                            android:layout_toRightOf="@+id/tv_my_balance"
+                            android:gravity="right"
+                            android:paddingRight="10dp">
+
+                            <TextView
+                                android:id="@+id/available_coins"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:drawableEnd="@drawable/ic_coinprofile"
+                                android:drawablePadding="2dp"
+                                android:fontFamily="@font/lato_medium"
+                                android:text="--"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/img_balance_forword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/purchase_coins"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.maleWallet()}">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_purchase_coins"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="My Wallet History"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/online_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.onlineStatus()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_sight"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Online Status"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="&#45;&#45;" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/contact_us"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.complaint()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_contact_us"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Complaint &amp; Suggestion"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/view_tickets"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.viewTicket()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_view_ticket"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="View Tickets"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/privacy_policy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.privacyPolicy()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_privacy_policy"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Privacy Policy"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/change_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.changePassword()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_lock"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/grey500"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Change Password"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/account_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.accountInfo()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_person_outline"
+                            android:drawablePadding="8dp"
+                            android:drawableTint="@color/grey500"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Account Info"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/my_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="@{()->clickListener.myCard()}"
+                        android:layout_margin="14dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_purchase_coins"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="My Cards"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/action_settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.setting()}">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_setting"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Setting"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/logout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="14dp"
+                        android:onClick="@{()->clickListener.logout()}"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_exit_app"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="Logout"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>
+
+
+
+
+
+
+
+

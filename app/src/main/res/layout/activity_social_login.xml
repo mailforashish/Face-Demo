@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SocialLogin">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_bg" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_social_login" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40201932"
+        android:padding="32dp">
+
+        <TextView
+            android:id="@+id/seprator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Zeeplive"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+        <FrameLayout
+            android:id="@+id/facebook_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guest_login"
+            android:layout_marginTop="13dp"
+            android:elevation="4dp">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/facebook_login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/fb_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_corner_white"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Sign in with Facebook"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/gmail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facebook_layout"
+            android:layout_marginTop="16dp"
+            android:elevation="4dp">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/gmail_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/rounded_corner_white"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_google"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Sign in with Google"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </FrameLayout>
+        <!--dp 100 at the time of host-->
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DP45"
+            android:layout_below="@+id/gmail_layout"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_corner_white_back"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="Login with User ID"
+            android:textAllCaps="true"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/gmail_layout"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corner_tranparent_black"
+            android:backgroundTint="#CC201932"
+            android:fontFamily="@font/lato_semibold"
+            android:gravity="center"
+            android:text="Login with User ID"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/guest_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DP45"
+            android:layout_below="@+id/seprator"
+            android:background="@drawable/round_corner_white_back"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="Quick Login"
+            android:textAllCaps="true"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/phone"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corner_tranparent_black"
+            android:backgroundTint="#CC201932"
+            android:fontFamily="@font/lato_semibold"
+            android:gravity="center"
+            android:text="Quick Login"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agree to "
+                android:textColor="#80FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openAgreement"
+                android:text="@string/useragreement"
+                android:textColor="#80FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="and "
+                android:textColor="#80FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openPrivacyPolicy"
+                android:text="@string/privacypolicy"
+                android:textColor="#80FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/term_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/lato_regular"
+            android:text="Agree to User Agreement and Privacy Policy"
+            android:textAlignment="center"
+            android:textColor="#80FFFFFF"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <!--   android:text="By using Zeeplive, you agree to our Terms of Use and Privacy Policy."
+        -->
+    </RelativeLayout>
+</RelativeLayout>

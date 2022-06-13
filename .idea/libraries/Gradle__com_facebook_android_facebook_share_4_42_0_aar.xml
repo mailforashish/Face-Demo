@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-share:4.42.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/8cd7629a0cdd68109fd3fd3595440ed6/jetified-facebook-share-4.42.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/8cd7629a0cdd68109fd3fd3595440ed6/jetified-facebook-share-4.42.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/8cd7629a0cdd68109fd3fd3595440ed6/jetified-facebook-share-4.42.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/5ca4af762319ccb411724f2e9bb9bcc8/jetified-facebook-share-4.42.0/res" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/5ca4af762319ccb411724f2e9bb9bcc8/jetified-facebook-share-4.42.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/5ca4af762319ccb411724f2e9bb9bcc8/jetified-facebook-share-4.42.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/5f5d4653c528ace4d7266a9e58735fbd/jetified-facebook-share-4.42.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/5f5d4653c528ace4d7266a9e58735fbd/jetified-facebook-share-4.42.0/res" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/5f5d4653c528ace4d7266a9e58735fbd/jetified-facebook-share-4.42.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.facebook.android/facebook-share/4.42.0/3e09e423eaa79903ec9d4d02df95ce3be786ecdf/facebook-share-4.42.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.facebook.android/facebook-share/4.42.0/9dff16a66d911737fe9609dd65129e0c5fed824b/facebook-share-4.42.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

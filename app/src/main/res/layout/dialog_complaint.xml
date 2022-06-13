@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <!--   <variable
+               name="response"
+               type="com.rozgar.custom_hrms.models.response.NotificationResponse" />-->
+
+
+        <variable
+            name="clickListener"
+            type="com.zeeplive.app.dialog.ComplaintDialog.EventHandler" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:outlineSpotShadowColor="@color/white"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Complaint"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/state_spinner"
+                style="@style/mySpinnerItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/rounded_corner_stroke"
+                android:backgroundTint="@color/grey500"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:entries="@array/complaint_types"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/report_reason"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_corner_stroke"
+                android:backgroundTint="@color/grey500"
+                android:fontFamily="@font/lato_medium"
+                android:gravity="start"
+                android:hint="Please describe"
+                android:maxLength="140"
+                android:padding="12dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/lato_medium"
+                android:onClick="@{() -> clickListener.sendComplaint()}"
+                android:padding="8dp"
+                android:text="Send"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

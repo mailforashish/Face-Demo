@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/google-pay-client-api-1.0.0.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/c7523f7fe29eff0bcc035a357c005c1e/jetified-google-pay-client-api-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/c7523f7fe29eff0bcc035a357c005c1e/jetified-google-pay-client-api-1.0.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/c7523f7fe29eff0bcc035a357c005c1e/jetified-google-pay-client-api-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/4b16068063807f033dc6a2d212b20e50/jetified-google-pay-client-api-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/4b16068063807f033dc6a2d212b20e50/jetified-google-pay-client-api-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/4b16068063807f033dc6a2d212b20e50/jetified-google-pay-client-api-1.0.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/4cf83e9ae558c4dbbf85ea212c0898c7/jetified-google-pay-client-api-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/4cf83e9ae558c4dbbf85ea212c0898c7/jetified-google-pay-client-api-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/4cf83e9ae558c4dbbf85ea212c0898c7/jetified-google-pay-client-api-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <!--   <variable
+               name="response"
+               type="com.rozgar.custom_hrms.models.response.NotificationResponse" />-->
+
+        <variable
+            name="clickListener"
+            type="com.zeeplive.app.dialog.AccountInfoDialog.EventHandler" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Account Info"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/rounded_corner_tranparent_black"
+                android:backgroundTint="@color/white300"
+                android:fontFamily="@font/lato_semibold"
+                android:gravity="start"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/rounded_corner_tranparent_black"
+                android:backgroundTint="@color/white300"
+                android:fontFamily="@font/lato_semibold"
+                android:gravity="start"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/change_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/lato_medium"
+                android:onClick="@{() -> clickListener.changePassword()}"
+                android:padding="8dp"
+                android:text="OK"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

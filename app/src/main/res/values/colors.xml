@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a20be9</color>
+    <color name="colorPrimaryDark">#7b1fa2</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <color name="blackNew">#262626</color>
+    <!--<color name="textBlack">#212121</color>-->
+    <color name="textBlack">#1E3058</color>
+    <color name="grey200">#eeeeee</color>
+    <color name="rating">#a20be9</color>
+    <color name="female_background">#eeeef6</color>
+    <color name="tag">#bd48f3</color>
+    <color name="rating_background">#eeeef6</color>
+    <color name="white300">#e0e0e0</color>
+    <color name="white">#ffffff</color>
+    <color name="titlebar">#38aeff</color>
+    <color name="white_100">#fafafa</color>
+    <color name="Black">#000000</color>
+    <color name="gray_alpha">#65232323</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparent_new">#00000000</color>
+    <color name="transparent50">#8C000000</color>
+    <color name="textGrey">#757575</color>
+    <color name="grey500">#9e9e9e</color>
+    <color name="colorGreen">#8AE6C5</color>
+    <color name="colorRed">#ED8993</color>
+    <color name="onCamShadowColor">#E22194</color>
+    <color name="color_yellow">#ffcb2d</color>
+
+    <color name="transparentBlack">#80000000</color>
+    <color name="onlineBackground">#26ea83</color>
+    <color name="offlineBackground">#d3d3d3</color>
+    <color name="busyBackground">#ff9454</color>
+    <color name="ageBackground">#ff4c62</color>
+    <color name="cityBackground">#358df3</color>
+
+    <color name="colorPink">#ff3587</color>
+    <color name="colorNavigationBg">#201932</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTrans">#33FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPurple">#2c0f53</color>
+    <color name="colorNavigationFont">#635e70</color>
+    <color name="colorBackChat">#241e36</color>
+    <color name="colorRedoffline">#cc0000</color>
+    <color name="colorBusy">#FFFF00</color>
+
+
+    <color name="gray_lightest">#DEDEDE</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray">#989898</color>
+
+    <color name="blue">#007AFF</color>
+    <color name="blue_light">#0ECFFF</color>
+    <color name="blue_alpha">#9CD9FF</color>
+    <color name="pinkNew">#fe339f</color>
+
+    <color name="black_half_transparent">#66000000</color>
+
+
+    <color name="lightblack"> #808080</color>
+    <color name="verylight">#DEDFDF</color>#00C784
+    <!-- Chat Activity -->
+
+
+    <!-- insufficient coin dialog color-->
+    <color name="colorGradientStartNew">#0125a0</color>
+    <color name="colorGradientCenterNew">#7618b3</color>
+    <color name="colorGradientEndNew">#FF1493</color>
+
+
+    <color name="violet">#A25FE0</color>
+    <color name="violet_light">#E8DCF4</color>
+    <color name="gray_110">#edeff7</color>
+    <color name="gray_120">#f0f0f2</color>
+    <color name="grey600">#6a6073</color>
+    <color name="grey700">#545454</color>
+    <color name="grey800">#eeeef6</color>
+    <color name="grey900">#dfdde9</color>
+    <color name="lv1">#b0b2fc</color>
+    <color name="lv2">#b8bafd</color>
+    <color name="lv3">#757dfc</color>
+    <color name="lv4">#7d81fb</color>
+    <color name="lv5">#777be4</color>
+    <color name="lv6">#404aff</color>
+    <color name="lv7">#3c45ff</color>
+    <color name="lv8">#464aff</color>
+    <color name="lv9">#2a30b9</color>
+    <color name="lv10">#2528bb</color>
+    <color name="blueNew">#6a5eef</color>
+
+
+    <!--gradient colors-->
+    <color name="gradientLightBlue">#376DF6</color>
+
+
+    <!-- From: file:/Users/fyu/Workplace/android-ripple-background/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="rippelColor">#0099CC</color>
+    <declare-styleable name="RippleBackground"><attr format="color" name="rb_color"/><attr format="dimension" name="rb_strokeWidth"/><attr format="dimension" name="rb_radius"/><attr format="integer" name="rb_duration"/><attr format="integer" name="rb_rippleAmount"/><attr format="float" name="rb_scale"/><attr format="enum" name="rb_type"><enum name="fillRipple" value="0"/><enum name="strokeRipple" value="1"/></attr></declare-styleable>
+    <!-- From: file:/Users/fyu/Workplace/android-ripple-background/library/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="rippleRadius">64dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <color name="gray_darkest">#656565</color>
+    <color name="blue_original">#00AFF4</color>
+    <color name="gray_lighter">#cccccc</color>
+
+</resources>

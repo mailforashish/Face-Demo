@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/DP60"
+    android:layout_marginTop="@dimen/DP5"
+    android:background="@color/colorNavigationBg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profile"
+        android:layout_width="@dimen/DP50"
+        android:layout_height="@dimen/DP50"
+        android:layout_marginStart="@dimen/DP10"
+        android:src="@drawable/gift" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/DP10"
+        android:layout_marginTop="@dimen/DP5"
+        android:layout_toStartOf="@id/ll_end"
+        android:layout_toEndOf="@id/img_profile"
+        android:singleLine="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/SP15" />
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_marginStart="@dimen/DP10"
+        android:layout_marginTop="-4dp"
+        android:layout_toStartOf="@id/ll_end"
+        android:layout_toEndOf="@id/img_profile"
+        android:singleLine="true"
+        android:textColor="@color/colorNavigationFont"
+        android:textSize="@dimen/SP13" />
+
+    <LinearLayout
+        android:id="@+id/ll_end"
+        android:layout_width="@dimen/DP50"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DP5"
+            android:singleLine="true"
+            android:textColor="@color/colorNavigationFont"
+            android:textSize="@dimen/SP12" />
+
+        <RelativeLayout
+            android:id="@+id/rl_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/DP15"
+            android:layout_marginTop="@dimen/DP5"
+            android:visibility="gone"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/DP15"
+                android:layout_height="@dimen/DP15"
+                android:src="@color/colorPink" />
+
+            <TextView
+                android:id="@+id/tv_unread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="0"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/SP10" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

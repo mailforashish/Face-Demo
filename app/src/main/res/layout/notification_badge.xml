@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/notificationsinbag"
+        android:layout_width="@dimen/DP20"
+        android:layout_height="@dimen/DP18"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/DP2"
+        android:background="@drawable/circularbadge"
+        android:gravity="center"
+
+        android:singleLine="true"
+        android:paddingStart="@dimen/DP3"
+        android:paddingEnd="@dimen/DP3"
+        android:textColor="@color/white"
+        android:textSize="8sp" />
+</merge>

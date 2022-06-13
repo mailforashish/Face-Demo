@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sangcomz:FishBun:0.9.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/ff8326920698827d7aef7ed74999b369/jetified-FishBun-0.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/ff8326920698827d7aef7ed74999b369/jetified-FishBun-0.9.1/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/ff8326920698827d7aef7ed74999b369/jetified-FishBun-0.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/d95bc247e4f7225e92684a95f80046c0/jetified-FishBun-0.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/d95bc247e4f7225e92684a95f80046c0/jetified-FishBun-0.9.1/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/d95bc247e4f7225e92684a95f80046c0/jetified-FishBun-0.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/46e719c007ccf38e9666fed904e4b246/jetified-FishBun-0.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/46e719c007ccf38e9666fed904e4b246/jetified-FishBun-0.9.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/46e719c007ccf38e9666fed904e4b246/jetified-FishBun-0.9.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.sangcomz/FishBun/0.9.1/90c888a79a9dfc89fc511afbd9e6de6c65c556b/FishBun-0.9.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.sangcomz/FishBun/0.9.1/27bbc6b5d5aa54c44be4b8f51dabd974c1423995/FishBun-0.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

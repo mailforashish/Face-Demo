@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/DP10"
+    app:cardBackgroundColor="@color/transparent"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp"
+        android:background="@null">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_gift"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="2dp"
+            android:elevation="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_gift_car"
+            app:civ_border_color="#376DF6"
+            app:civ_border_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/over_box"
+            app:strokeWidth="1dp" />
+
+        <LinearLayout
+            android:id="@+id/linear_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/over_box">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/gift_header_background"
+                android:gravity="center|center_horizontal"
+                android:paddingBottom="@dimen/DP15">
+
+                <TextView
+                    android:id="@+id/tv_freecardcount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/DP30"
+                    android:layout_marginTop="@dimen/DP45"
+                    android:layout_marginEnd="@dimen/DP30"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/SP18" />
+
+                <Button
+                    android:id="@+id/btn_gotit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DP40"
+                    android:layout_below="@id/tv_freecardcount"
+                    android:layout_marginLeft="100dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/gift_bt"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/DP30"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center"
+                    android:text="Got it"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/over_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/over_box_new"
+            android:orientation="vertical"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DP180"
+        app:cardCornerRadius="@dimen/DP10">
+
+
+    </androidx.cardview.widget.CardView>-->

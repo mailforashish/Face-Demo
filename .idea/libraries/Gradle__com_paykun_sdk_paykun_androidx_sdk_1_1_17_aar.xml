@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paykun.sdk:paykun-androidx-sdk:1.1.17@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/310195a74493194f476d2382666ca2e6/jetified-paykun-androidx-sdk-1.1.17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/310195a74493194f476d2382666ca2e6/jetified-paykun-androidx-sdk-1.1.17/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/310195a74493194f476d2382666ca2e6/jetified-paykun-androidx-sdk-1.1.17/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.paykun.sdk/paykun-androidx-sdk/1.1.17/f77b04cc603b7831cbf0b8afd6447b94a0b2ecb9/paykun-androidx-sdk-1.1.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.paykun.sdk/paykun-androidx-sdk/1.1.17/6f26293291609d0f13560bc895c8f2fd5f9ec894/paykun-androidx-sdk-1.1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

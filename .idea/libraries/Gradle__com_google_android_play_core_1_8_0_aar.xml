@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.play:core:1.8.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/fa523f16b9d2b4ce4e12b00d901d9ef9/jetified-core-1.8.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/466f659b1ce7f1786df889b2e66db006/jetified-core-1.8.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/590153e13a64546fff5252f206ee4ae2/jetified-core-1.8.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/fa523f16b9d2b4ce4e12b00d901d9ef9/jetified-core-1.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/fa523f16b9d2b4ce4e12b00d901d9ef9/jetified-core-1.8.0/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/fa523f16b9d2b4ce4e12b00d901d9ef9/jetified-core-1.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/466f659b1ce7f1786df889b2e66db006/jetified-core-1.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/466f659b1ce7f1786df889b2e66db006/jetified-core-1.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/466f659b1ce7f1786df889b2e66db006/jetified-core-1.8.0/res" />
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/590153e13a64546fff5252f206ee4ae2/jetified-core-1.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/590153e13a64546fff5252f206ee4ae2/jetified-core-1.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/590153e13a64546fff5252f206ee4ae2/jetified-core-1.8.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.android/caches/modules-2/files-2.1/com.google.android.play/core/1.8.0/b8df97e41ff44aee12147d8ecac26ae8da592159/core-1.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

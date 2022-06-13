@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="Reminder"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/lato_regular"
+                android:lineSpacingMultiplier="1.2"
+                android:text="Please observe these Terms when you submit Your Content:\n\n
+You are prohibited from posting and agree not to post any objectionable content which includes, but is not limited to: Sexually Explicit Material, Violence and Bullying, Hate Speech, Sensitive Event, Illegal Activity, and Intellectual Property Infringement. Should you violate the Terms, your account will be suspended. \n\n
+If you spot any violations, please inform us using the Report System build in our app. Any convicted violators shall be banned immediately ."
+
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:id="@+id/close_dialog"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/rounded_corner_stroke"
+                    android:fontFamily="@font/lato_bold"
+                    android:padding="8dp"
+                    android:text="Refuse"
+                    android:textAlignment="center"
+                    android:textColor="#1E3058"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logout"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/rounded_corner_stroke"
+                    android:fontFamily="@font/lato_bold"
+                    android:padding="8dp"
+                    android:text="I Agree"
+                    android:textAlignment="center"
+                    android:textColor="#1E3058"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

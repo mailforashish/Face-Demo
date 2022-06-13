@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.FemaleHomeFragment">
+
+        <LinearLayout
+            android:id="@+id/sv_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:id="@+id/profile_pic_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/female_placeholder" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparentBlack">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/status_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/online_status"
+                android:layout_marginLeft="20dp"
+                android:checked="false"
+                android:theme="@style/swithStyle"
+                app:track="@drawable/custom_track" />
+
+            <TextView
+                android:id="@+id/online_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="36dp"
+                android:layout_toRightOf="@+id/status_switch"
+                android:fontFamily="@font/lato_semibold"
+                android:text="Online"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/status_description"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/online_status"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/lato_regular"
+                android:text="You are not available for video calls now"
+                android:textColor="#E6FFFFFF"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/fastmode_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/status_switch"
+                android:layout_alignBaseline="@+id/fastmode_status"
+                android:layout_marginLeft="20dp"
+                android:theme="@style/swithStyle"
+                app:track="@drawable/custom_track" />
+
+            <TextView
+                android:id="@+id/fastmode_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/online_status"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/status_switch"
+                android:fontFamily="@font/lato_semibold"
+                android:text="Fastmode"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/fastmode_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fastmode_status"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/lato_regular"
+                android:text="Fast mode is live mode. In fast mode,\nyou can get more call as usually."
+                android:textColor="#E6FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="24dp"
+                android:fontFamily="@font/lato_regular"
+                android:lineSpacingMultiplier="1.2"
+                android:text="Note : It is NOT ALLOWED to upload any pornographic text or image contents, If  violations are verified, the cooperation will be terminated directly and the earnings will not be settled"
+                android:textColor="#E6FFFFFF"
+                android:textSize="@dimen/SP16" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

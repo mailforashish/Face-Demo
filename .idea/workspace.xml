@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3a_xl" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e640f982-0842-4dde-8992-041af09a0193" name="Default Changelist" comment=" may 13" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@6803df13]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="C:\Users\jbb\AndroidStudioProjects\LatestestCode\ZeepLive21\zeeplive-frontend\app\release\releaseapk.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="https://github.com/mailforashish/Face-Demo.git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tpqDoo8jql6ceMH63hL6y2JwyK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="zeeplive-frontend.app" />
+    <property name="BundleExportedModule" value="zeeplive-frontend.app" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_a127f-RZ8T308BL4E" />
+    <property name="DEBUGGABLE_PROCESS" value="com.zeeplive.app" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@RZ8T308BL4E" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-06-13T11:58:31.043416400Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\jbb\AndroidStudioProjects\LatestestCode\ZeepLive21\zeeplive-frontend\app\release" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="SerialNumber@7d2a729" />
+    <property name="android-custom-viewC:/Users/jbb/.android/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.3.0/45a346a05e7ff27a01c59452379c5939cbb53c03/appcompat-1.3.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_SELECTED" value="AppCompatImageView" />
+    <property name="android-custom-viewC:/Users/jbb/.android/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/jbb/.android/caches/modules-2/files-2.1/com.facebook.android/facebook-login/4.42.0/5e3d08fc791650cc0df09ac481295c0ed24fe4c8/facebook-login-4.42.0-sources.jar!/com/facebook/login/widget/LoginButton.java_SELECTED" value="LoginButton" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/AshishRippleBackground.java_SELECTED" value="AshishRippleBackground" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/MyView.java_SELECTED" value="MyView" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/RadarViewAshish.java_SELECTED" value="RadarViewAshish" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/RippleBackgroundNew.java_SELECTED" value="AshishRippleBackground" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/brokenview/BrokenViews.java_SELECTED" value="BrokenViews" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/CameraTextureView.java_SELECTED" value="CameraTextureView" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/AbstractActionSheet.java_SELECTED" value="AbstractActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/BackgroundMusicActionSheet.java_SELECTED" value="BackgroundMusicActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/BeautySettingActionSheet.java_SELECTED" value="BeautySettingActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/GiftActionSheet.java_SELECTED" value="GiftActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/LiveRoomSettingActionSheet.java_SELECTED" value="LiveRoomSettingActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/VoiceActionSheet.java_SELECTED" value="VoiceActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/toolactionsheet/AbsToolActionSheet.java_SELECTED" value="AbsToolActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/CameraSurfaceView.java_SELECTED" value="CameraSurfaceView" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/CameraTextureView.java_SELECTED" value="CameraTextureView" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/LinearLayout9to8.java_SELECTED" value="LinearLayout9to8" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/LiveHostNameLayout.java_SELECTED" value="LiveHostNameLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/LiveMessageEditLayout.java_SELECTED" value="LiveMessageEditLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/LiveMultiHostSeatLayout.java_SELECTED" value="LiveMultiHostSeatLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/LiveRoomMessageList.java_SELECTED" value="LiveRoomMessageList" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/LiveRoomUserLayout.java_SELECTED" value="LiveRoomUserLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/bottomLayout/AbsBottomLayout.java_SELECTED" value="AbsBottomLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/bottomLayout/ECommerceBottomLayout.java_SELECTED" value="ECommerceBottomLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/components/bottomLayout/LiveBottomButtonLayout.java_SELECTED" value="LiveBottomButtonLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/LatestestCode/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/vlive/ui/components/bottomLayout/AbsBottomLayout.java_SELECTED" value="AbsBottomLayout" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/Zeep_live_Face/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/BeautySettingActionSheet.java_SELECTED" value="BeautySettingActionSheet" />
+    <property name="android-custom-viewC:/Users/jbb/AndroidStudioProjects/Zeep_live_Face/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/LiveRoomSettingActionSheet.java_SELECTED" value="LiveRoomSettingActionSheet" />
+    <property name="android-custom-viewE:/5aprilbk/LatestestCodebk12nov/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/CameraTextureView.java_SELECTED" value="CameraTextureView" />
+    <property name="android-custom-viewE:/5aprilbk/LatestestCodebk12nov/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/AbstractActionSheet.java_SELECTED" value="AbstractActionSheet" />
+    <property name="android-custom-viewE:/5aprilbk/LatestestCodebk12nov/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/BeautySettingActionSheet.java_SELECTED" value="BeautySettingActionSheet" />
+    <property name="android-custom-viewE:/5aprilbk/LatestestCodebk12nov/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/LiveRoomSettingActionSheet.java_SELECTED" value="LiveRoomSettingActionSheet" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1651563053587" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1672339153">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zeeplive.app.ui.live" />
+      <recent name="com.zeeplive.app.ui.actionsheets" />
+      <recent name="com.zeeplive.app.ui" />
+      <recent name="com.zeeplive.app" />
+      <recent name="com.zeeplive.app.dialog" />
+    </key>
+    <key name="android.template.1338036942">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+    <key name="android.template.826881343">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jbb\AndroidStudioProjects\LatestestCodebk12nov\ZeepLive21\zeeplive-frontend\app\src\main\res\drawable-xxxhdpi" />
+      <recent name="C:\Users\jbb\AndroidStudioProjects\LatestestCodebk12nov\ZeepLive21\zeeplive-frontend\app\src\main\res\drawable-mdpi" />
+      <recent name="C:\Users\jbb\AndroidStudioProjects\LatestestCodebk12nov\ZeepLive21\zeeplive-frontend\app\src\main\res\layout" />
+      <recent name="C:\Users\jbb\AndroidStudioProjects\LatestestCode\ZeepLive21\zeeplive-frontend\app\src\main\res\layout" />
+      <recent name="C:\Users\jbb\AndroidStudioProjects\LatestestCode\ZeepLive21\zeeplive-frontend\app\src\main\res\drawable-xxhdpi" />
+    </key>
+    <key name="android.template.527866932">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+    <key name="android.template.1198488991">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+    <key name="android.template.1764377946">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+    <key name="android.template.-926389115">
+      <recent name="com.zeeplive.app.activity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e640f982-0842-4dde-8992-041af09a0193" name="Default Changelist" comment="" />
+      <created>1623476261875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623476261875</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1655111571265">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1655111571265" />
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647926130179">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1647926130179" />
+    <state x="11" y="199" key="AndroidCreateResourceFileDialog" timestamp="1650517720924">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="11" y="199" key="AndroidCreateResourceFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1650517720924" />
+    <state x="276" y="230" key="AndroidCreateXmlResourceDialog" timestamp="1647932710816">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="276" y="230" key="AndroidCreateXmlResourceDialog/0.0.1600.860@0.0.1600.860" timestamp="1647932710816" />
+    <state x="592" y="176" key="AndroidProcessChooserDialog" timestamp="1655103958301">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="592" y="176" key="AndroidProcessChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1655103958301" />
+    <state width="411" height="438" key="DebuggerActiveHint" timestamp="1647929604238">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="411" height="438" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1647929604238" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1655118867512">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1655118867512" />
+    <state width="1557" height="218" key="GridCell.Tab.0.bottom" timestamp="1655123119797">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1655123119797" />
+    <state width="1557" height="218" key="GridCell.Tab.0.center" timestamp="1655123119797">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1655123119797" />
+    <state width="1557" height="218" key="GridCell.Tab.0.left" timestamp="1655123119797">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1655123119797" />
+    <state width="1557" height="218" key="GridCell.Tab.0.right" timestamp="1655123119797">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1655123119797" />
+    <state x="301" y="74" key="SettingsEditor" timestamp="1655123455442">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1655123455442" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1655106914841">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1655106914841" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/EmployeeViewProfileFragment.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/EmployeeViewProfileFragment.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/EmployeeViewProfileFragment.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/adapter/RecentRechargesAdapter.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/adapter/RecentRechargesAdapter.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/adapter/RecentRechargesAdapter.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/adapter/RecentRechargesAdapter.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/MyFavourite.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/MyFavourite.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/EmployeeViewProfileFragment.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/fragment/EmployeeViewProfileFragment.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/MatchVideoChatActivity.java</url>
+          <line>444</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/MatchVideoChatActivity.java</url>
+          <line>442</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/framework/PreprocessorFaceUnity.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/framework/PreprocessorFaceUnity.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/framework/PreprocessorFaceUnity.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/VideoChatActivity.java</url>
+          <line>1657</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/VideoChatActivity.java</url>
+          <line>1269</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/SocialLogin.java</url>
+          <line>453</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/SocialLogin.java</url>
+          <line>456</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/SocialLogin.java</url>
+          <line>461</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/SocialLogin.java</url>
+          <line>449</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/activity/SocialLogin.java</url>
+          <line>444</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/ui/live/LiveBaseActivity.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/ui/live/LiveBaseActivity.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/ui/live/LivePrepareActivity.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zeeplive/app/ui/live/LivePrepareActivity.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

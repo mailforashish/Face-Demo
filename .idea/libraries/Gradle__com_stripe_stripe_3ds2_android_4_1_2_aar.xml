@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stripe:stripe-3ds2-android:4.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/caches/transforms-2/files-2.1/fdae7b31a80b2fbf2654be032c9aacd4/jetified-stripe-3ds2-android-4.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/fdae7b31a80b2fbf2654be032c9aacd4/jetified-stripe-3ds2-android-4.1.2/res" />
+      <root url="file://$USER_HOME$/.android/caches/transforms-2/files-2.1/fdae7b31a80b2fbf2654be032c9aacd4/jetified-stripe-3ds2-android-4.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

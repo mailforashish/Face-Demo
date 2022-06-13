@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InsufficientCoinActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:background="@drawable/insufficient"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="172dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-14dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/coinfall" />
+
+        <ImageView
+            android:id="@+id/insufficient_coin_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DP20"
+            android:fontFamily="@font/lato_semibold"
+            android:gravity="left"
+            android:text="My Diamonds"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_mycoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="left"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/coin_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:drawableStart="@drawable/ic_coin"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/lato_semibold"
+            android:text="25/min"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tag_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_medium"
+            android:text="Recharge to enable 1 to 1 video chat"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/term_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="10dp"
+            android:text="* Chat plan will not be applicable on video call"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear_main"
+        android:layout_marginLeft="@dimen/DP10"
+        android:layout_marginTop="-195dp"
+        android:layout_marginRight="@dimen/DP10"
+        android:background="@drawable/rate_buttom_background"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/DP5"
+        android:paddingTop="15dp"
+        android:paddingRight="@dimen/DP5">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/plan_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_mail"
+        android:layout_marginTop="@dimen/DP10"
+        android:fontFamily="@font/lato_medium"
+        android:gravity="center"
+        android:text="Paid but coin not received?"
+        android:textColor="@color/textGrey"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/DP10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_medium"
+            android:gravity="end"
+            android:text="Email us:"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_medium"
+            android:gravity="start"
+            android:text=" zeepliveofficial@gmail.com"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

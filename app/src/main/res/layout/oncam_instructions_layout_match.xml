@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/oncam_bg"
+        android:padding="6dp"
+        tools:context=".FToFInstructions">
+
+        <RelativeLayout
+            android:id="@+id/rl_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="@dimen/DP10"
+            android:layout_marginTop="@dimen/DP10"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center_vertical"
+                android:shadowColor="@color/onCamShadowColor"
+                android:text="Matching...."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_match_close"
+            android:layout_width="@dimen/DP30"
+            android:layout_height="@dimen/DP30"
+            android:layout_marginTop="@dimen/DP10"
+            android:layout_marginEnd="@dimen/DP10"
+            android:background="@drawable/circular"
+            android:visibility="gone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="@dimen/DP15"
+                android:layout_height="@dimen/DP15"
+                android:layout_centerInParent="true"
+                android:src="@drawable/cancelcall" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_female"
+                style="@style/CustomButton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center"
+                android:text="Female"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/SP16" />
+        </RelativeLayout>
+
+
+        <com.zeeplive.app.AshishRippleBackground
+            android:id="@+id/circular_waves_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rb_color="@color/white"
+            app:rb_duration="3000"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="4"
+            app:rb_scale="6"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/pumping_heart_new"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/bg_white_circle"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_rawRes="@raw/oncam_pumping_heart" />
+
+
+        <TextView
+            android:id="@+id/tv_show_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/lato_bold"
+            android:shadowColor="@color/onCamShadowColor"
+            android:shadowDx="-6"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:text="186"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:translationY="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pumping_heart_new" />
+
+        <TextView
+            android:id="@+id/tv_girls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/lato_bold"
+            android:shadowColor="@color/onCamShadowColor"
+            android:shadowDx="-6"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:text="Girls are in the matching..."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:translationY="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_show_user" />
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:shadowColor="@color/onCamShadowColor"
+            android:shadowDx="-6"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:text="15"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:translationY="12dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_show_user" />
+
+        <Button
+            android:id="@+id/startBtn"
+            style="@style/CustomButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP18"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

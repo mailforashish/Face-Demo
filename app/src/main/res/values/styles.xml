@@ -1,0 +1,167 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">@color/white</item>-->
+        <!--<item name="color">@color/black</item>-->
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+
+    <style name="AppTheme.BroadcastScreen">
+        <!--       <item name="windowActionBar">false</item>
+               <item name="windowNoTitle">true</item>-->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/transparentBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+        <!-- <item name="font">@string/fontName</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/tricolor_gradient</item>
+
+    </style>
+
+    <style name="action_sheet_seek_bar">
+        <item name="android:minHeight">@dimen/live_room_action_sheet_seek_bar_height</item>
+        <item name="android:maxHeight">@dimen/live_room_action_sheet_seek_bar_height</item>
+        <item name="android:progressDrawable">@drawable/setting_progress</item>
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+    </style>
+
+    <style name="action_sheet_beauty_seek_bar" parent="action_sheet_seek_bar">
+        <item name="android:max">10</item>
+    </style>
+
+    <style name="CustomButton2" parent="@android:style/Widget.Button">
+        <!-- <item name="font">@string/fontName</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_viewprofile_video</item>
+
+    </style>
+    <style name="CustomButton3" parent="@android:style/Widget.Button">
+        <!-- <item name="font">@string/fontName</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/btn_viewprofile_message</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="collapsed_title_size">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/textGrey</item>
+        <item name="android:color">@color/textGrey</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="swithStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="thumbTint">@color/white</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="AudioFileInfoOverlayTextCard">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:shadowColor">#ffcb3d</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#00000000</item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Theme.AppCompat.TranslucentNew" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#00000000</item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">#00000000</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    <style name="DialogAnimationWindMill">
+        <item name="android:windowEnterAnimation">@anim/animate_windmill_enter_new</item>
+        <item name="android:windowExitAnimation">@anim/animate_windmill_exit_new</item>
+    </style>
+
+
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="live_room_dialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,18 @@
+package com.zeeplive.app.response;
+
+public class SentOtpResponse {
+    boolean success;
+    String result, error;
+
+    public boolean isSuccess() {
+        return success;
+    }
+
+    public String getResult() {
+        return result;
+    }
+
+    public String getError() {
+        return error;
+    }
+}
