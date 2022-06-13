@@ -68,7 +68,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tpqDoo8jql6ceMH63hL6y2JwyK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -131,7 +131,7 @@
     <property name="android-custom-viewE:/5aprilbk/LatestestCodebk12nov/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/LiveRoomSettingActionSheet.java_SELECTED" value="LiveRoomSettingActionSheet" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.last.time.stamp" value="1651563053587" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -259,6 +259,14 @@
       <option name="presentableId" value="Default" />
       <updated>1623476261875</updated>
     </task>
+    <task id="LOCAL-00001" summary=" may 13">
+      <created>1655125411536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655125411536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +283,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="MAXIMUM_HISTORY_ROWS" value="1200" />
+    <MESSAGE value=" may 13" />
+    <option name="LAST_COMMIT_MESSAGE" value=" may 13" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1655111571265">
@@ -301,10 +311,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="411" height="438" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1647929604238" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1655125221389">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1655125390298">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1655125221389" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1655125390298" />
     <state x="678" y="327" key="Github.ShareDialog" timestamp="1655124558424">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -329,6 +339,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1655125227309" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1655125511162">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1655125511162" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1655106914841">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
