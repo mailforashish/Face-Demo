@@ -30,7 +30,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@6803df13]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@RZ8T308BL4E]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -67,7 +67,7 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="https://github.com/mailforashish/Face-Demo.git" />
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1tpqDoo8jql6ceMH63hL6y2JwyK" />
@@ -131,7 +131,7 @@
     <property name="android-custom-viewE:/5aprilbk/LatestestCodebk12nov/ZeepLive21/zeeplive-frontend/app/src/main/java/com/zeeplive/app/ui/actionsheets/LiveRoomSettingActionSheet.java_SELECTED" value="LiveRoomSettingActionSheet" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="memory.settings.postsync.last.time.stamp" value="1651563053587" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -273,6 +273,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="MAXIMUM_HISTORY_ROWS" value="1200" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1655111571265">
       <screen x="0" y="0" width="1600" height="860" />
@@ -298,10 +301,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="411" height="438" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1647929604238" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1655118867512">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1655125221389">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1655118867512" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1655125221389" />
+    <state x="678" y="327" key="Github.ShareDialog" timestamp="1655124558424">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="678" y="327" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1655124558424" />
     <state width="1557" height="218" key="GridCell.Tab.0.bottom" timestamp="1655123119797">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -318,10 +325,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1655123119797" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1655123455442">
+    <state x="301" y="74" key="SettingsEditor" timestamp="1655125227309">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1655123455442" />
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1655125227309" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1655106914841">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
